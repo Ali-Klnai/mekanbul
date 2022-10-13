@@ -17,6 +17,5 @@ const anaSayfa=function(req, res, next) {
   module.exports={
     anaSayfa,
     mekanBilgisi,
-    yorumEkle
-
+    yorumEkle,
   }
