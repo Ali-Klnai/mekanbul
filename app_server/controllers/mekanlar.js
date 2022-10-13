@@ -11,7 +11,7 @@ const anaSayfa=function(req, res, next) {
   };
 
   const yorumEkle=function(req, res, next) {
-    res.render('yorumEkle', { title: 'Yorum Ekle' });
+    res.render('yorumekle', { title: 'Yorum Ekle' });
   };
 
   module.exports={
