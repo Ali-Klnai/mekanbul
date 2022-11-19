@@ -16,7 +16,7 @@ ad:{type:String,require:true},
 adres:String,
 puan:{type:Number,default:0,min:0,max:5},
 imkanlar:[String],
-kordinatlar: {type: [Number], index: '2dsphere'},
+koordinat: {type: [Number], index: '2dsphere'},
 saatler:[saatSema],
 yorumlar:[yorumSema]
 });
