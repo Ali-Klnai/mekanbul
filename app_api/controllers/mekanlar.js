@@ -13,7 +13,7 @@ var cevrimler = (function () {
     };
     return {
         radyan2Kilometre: radyan2Kilometre,
-        kilometre2Radyan: kilometre2Radyan,
+        kilometre2Radyan: kilometre2Radyxan,
     };
 })();
 
