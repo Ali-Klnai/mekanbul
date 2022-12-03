@@ -55,9 +55,9 @@ const anaSayfa=function(req,res,next){
 }
 var detaySayfasiOlustur=function(res,mekanDetaylari){
     mekanDetaylari.koordinat={
-        "enlem":mekanDetaylari.koordinat[0],
-        "boylam":mekanDetaylari.koordinat[1]
-    }
+        "enlem" : mekanDetaylari.koordinat[0],
+        "boylam" : mekanDetaylari.koordinat[1]
+     }
     res.render('mekanbilgisi',
     {
         mekanBaslik:mekanDetaylari.ad,
